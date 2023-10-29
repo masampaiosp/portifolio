@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Sometype+Mono&display=swap");
+
 body {
   text-align: center;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 button {
   background-color: #d8e2fb;
@@ -17,6 +19,12 @@ button {
   text-decoration: none;
   display: flex;
   font-size: 12px;
+  transition: all 1.2s ease;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: rotateY(360deg);
 }
 
 body {
@@ -25,40 +33,63 @@ body {
   font-family: Arial, sans-serif;
 }
 
-h2 {
-  color: #847deb;
-  text-decoration: underline;
-  background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
+.about-me {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.about-me h1 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: left;
+  padding: 70px;
 }
 
-p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  margin: 30px;
+section {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 30px;
 }
 
 .text {
-  background-color: #d8e2fb;
-  margin-left: 10px;
-  margin-right: 10px;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 5px;
   display: flex;
-  margin-top: 20px;
-  padding-right: 80px;
-  padding-left: 80px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -30px;
+}
+button {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: black;
+  font-family: jjosefin sans-serif;
+  font-size: 15px;
+  padding: top 5px;
+}
+
+span {
+  font-size: 20px;
+  font-weight: 500;
+  color: #010009;
 }
 
 .menu-container {
   display: block;
   padding-inline: 10px;
-}
-
-.about-me {
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: center;
 }
 
 #menuh {
@@ -76,11 +107,6 @@ p {
   font-size: 10px;
 }
 
-.about-me h1 {
-  text-align: left;
-  padding: 70px;
-}
-
 .bloco1 {
   width: 300px;
   border: 1px solid #ccc;
@@ -96,13 +122,18 @@ p {
 }
 
 .bloco1 p {
+  font-family: josefin;
   font-size: 14px;
   line-height: 1.6;
   margin-bottom: 10px;
   justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .bloco1 a {
+  font-family: josefin sans;
+  font-size: 14px;
   display: inline-block;
   padding: 8px 16px;
   margin-bottom: 10px;
@@ -110,6 +141,7 @@ p {
   color: white;
   text-decoration: none;
   border-radius: 4px;
+  margin-left: 100px;
 }
 
 .bloco2 {
@@ -131,9 +163,13 @@ p {
   line-height: 1.6;
   margin-bottom: 10px;
   justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .bloco2 a {
+  font-family: josefin sans;
+  font-size: 14px;
   display: inline-block;
   padding: 8px 16px;
   margin-bottom: 10px;
@@ -141,6 +177,7 @@ p {
   color: white;
   text-decoration: none;
   border-radius: 4px;
+  margin-left: 100px;
 }
 
 .bloco3 {
@@ -162,9 +199,13 @@ p {
   line-height: 1.6;
   margin-bottom: 10px;
   justify-content: center;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .bloco3 a {
+  font-family: josefin sans;
+  font-size: 14px;
   display: inline-block;
   padding: 8px 16px;
   margin-bottom: 10px;
@@ -172,6 +213,7 @@ p {
   color: white;
   text-decoration: none;
   border-radius: 4px;
+  margin-left: 100px;
 }
 
 .bloco-container {
@@ -211,17 +253,22 @@ input[type="text"] {
 }
 
 input[type="submit"] {
+  font-family: josefin sans;
+  font-size: 14px;
   width: 100%;
   padding: 10px;
   border: none;
   border-radius: 3px;
   background-color: #847deb;
   color: white;
-  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 input[type="submit"]:hover {
   background-color: #847deb;
+}
+
+h3 {
+  text-align: center;
 }

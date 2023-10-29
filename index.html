@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maria Albertina</title>
+
     <link rel="stylesheet" href="./style.css" />
   </head>
 
   <body>
     <div class="menu-container">
       <ul id="menuh">
-        <li> <a href="http://127.0.0.1:5500/aboutme.html">ABOUT ME </a></li>
-        <li>PROJECTS</li>
-        <li>CONTACT ME</li>
+        <li><a href="http://127.0.0.1:5500/aboutme.html">ABOUT ME</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
+        <li><a href="#message">CONTACT ME</a></li>
       </ul>
     </div>
 
@@ -30,28 +31,27 @@
       <h2>About me</h2>
     </section>
 
-      <div class="text">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-          voluptatum, dolorem, alias corporis labore voluptatem magni eum quos
-          nihil blanditiis nam distinctio. Aut voluptate, numquam magni harum in
-          vero ipsum?Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Illo voluptatum, dolorem, alias corporis labore voluptatem magni eum
-          quos nihil blanditiis nam distinctio. Aut voluptate, numquam magni
-          harum in vero ipsum?Lorem ipsum dolor sit amet consectetur adipisicing
-          elit.
-        </p>
-        <button type="button">View Resume</button>
-      </div>
+    <div class="text">
+      <p>
+        <span>Hello Wordl!</span><br />
+        I have a strong passion for technology and enjoy creating with CSS and
+        Java. In addition to my dedication to technical advancement, I find joy
+        in reading, watching films, exploring culinary endeavors, and spending
+        time with animals, reflecting my versatile and creative nature.
+      </p>
+    </div>
 
+    <div class="button1">
+      <button type="submit">Linkedin</button>
+    </div>
 
     <section>
-      <h2>Projects</h2>
+      <h2 id="projects">Projects</h2>
     </section>
 
-    <div class=bloco-container>
+    <div class="bloco-container">
       <section class="bloco1">
-        <h3>Flexbox Website</h3>
+        <h3>First project</h3>
         <img
           src="./img/project-image1.png"
           alt="Portfolio"
@@ -67,7 +67,7 @@
       </section>
 
       <section class="bloco2">
-        <h3>Flexbox Website</h3>
+        <h3>Second project</h3>
         <img
           src="./img/project-image1.png"
           alt="Portfolio"
@@ -83,7 +83,7 @@
       </section>
 
       <section class="bloco3">
-        <h3>Flexbox Website</h3>
+        <h3>Third project</h3>
         <img
           src="./img/project-image1.png"
           alt="Portfolio"
@@ -97,27 +97,33 @@
         </p>
         <a href="#">View Project</a>
       </section>
-</div>
+    </div>
     <section>
-      <h2>Send me a message</h2>
-      <div class="message"></div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
-        voluptatum, dolorem, alias corporis labore voluptatem magni eum quos
-        nihil blanditiis
-      </p>
-      <form> 
-        <label for="fname"> First name: </label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="email"> Email: </label><br>
-        <input type="text" id="email" name="email"><br>
-        <label for="message"> Message: </label><br>
-        <input type="text" id="message" name="message">
-        <br>
-        <br>
-        <input type="submit" value="Submit">
-      </form>
+      <h2 id="message">Send me a message</h2>
+      <div class="message">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+          voluptatum, dolorem, alias corporis labore voluptatem magni eum quos
+          nihil blanditiis
+        </p>
+        <form>
+          <label for="fname"> First name: </label><br />
+          <input type="text" id="fname" name="fname" /><br />
+          <label for="email"> Email: </label><br />
+          <input type="text" id="email" name="email" /><br />
+          <label for="message"> Message: </label><br />
+          <input type="text" id="message" name="message" />
+          <br />
+          <br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
     </section>
-  </div>
+    <footer>
+      <div class="menu-footer">
+        <ul id="menuh">
+          <li>@ All rights reserved</li>
+        </ul>
+      </div>
   </body>
 </html>
